@@ -1,0 +1,21 @@
+{
+  "name": "AIM was better",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A must-have for all AOL fans!",
+  "homepage_url": "http://ianww.com",
+  "icons": {
+    "16": "icons/aim16.png",
+    "48": "icons/aim48.png",
+    "128": "icons/aim128.png"
+  },
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://ssl.gstatic.com/chat/sounds/*"
+  ]
+}
